@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+}
+
+.nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+}
+
+.nav img {
+  width: 150px;
+  height: 70px;
+}
+.nav .links {
+  display: flex;
+  gap: 40px;
+}
+.nav .links p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Hero Section */
+.hero-container {
+  height: 90vh;
+  background-image: linear-gradient(
+      rgba(246, 43, 43, 0.5),
+      rgba(243, 247, 210, 0.5)
+    ),
+    url("bg-shoe.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-container .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  padding-left: 100px;
+}
+
+.hero-container .content h1 {
+  font-size: 60px;
+  background-color: rgba(246, 43, 43, 0.8);
+  padding: 5px 30px;
+  color: white;
+}
+.hero-container .content p {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.hero-container .content button {
+  font-size: 30px;
+  padding: 10px 50px;
+  background-color: rgba(246, 43, 43, 0.8);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 17px -3px rgba(160, 157, 157, 0.75);
+}
+
+.hero-container .content button:hover {
+  background-color: rgba(246, 43, 43, 0.6);
+}
+
+/* Features */
+
+.features-container {
+  display: flex;
+  gap: 30px;
+  padding: 50px 100px;
+  justify-content: space-between;
+
+  background: rgb(246, 43, 43);
+  background: linear-gradient(
+    35deg,
+    rgba(246, 43, 43, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.feature {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0px 0px 17px -3px rgba(120, 117, 117, 0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.feature p {
+  font-size: 18px;
+}
+.feature i {
+  color: rgba(246, 43, 43, 0.8);
+}
+
+/* footer */
+
+.footer {
+  background-color: black;
+}
+
+.footer ul {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+  list-style-type: none;
+  text-align: center;
+}
+.footer strong {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.footer p {
+  padding-top: 10px;
+}
+
+.dummy {
+  background-color: white;
+  height: 20vh;
+}

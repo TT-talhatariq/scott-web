@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.4;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+  padding: 10px 100px;
+}
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 100px;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tag {
+  background-color: #149f39;
+  padding: 5px 10px;
+  color: white;
+  align-self: flex-start;
+}
+.hero-content h1 {
+  font-size: 72px;
+}
+.explore-button {
+  background-color: #ffc066;
+  padding: 10px 15px;
+  border: none;
+  color: white;
+  align-self: flex-start;
+}
+
+.features {
+  display: flex;
+  gap: 20px;
+  margin-top: 100px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.feature {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.feature img {
+  width: 72px;
+}
+
+.divider {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+.menu .tag {
+  align-self: center;
+}
+.grid-image {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  animation: scale-up-center 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "I1 I1 I2 I3"
+    "I1 I1 I2 I7"
+    "I4 I5 I6 I7";
+}
+
+.item1 {
+  grid-area: I1;
+}
+
+.item2 {
+  grid-area: I2;
+}
+
+.item3 {
+  grid-area: I3;
+}
+
+.item4 {
+  grid-area: I4;
+}
+
+.item5 {
+  grid-area: I5;
+}
+
+.item6 {
+  grid-area: I6;
+}
+
+.item7 {
+  grid-area: I7;
+}
+
+.footer_container {
+  background-color: #fff0db;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-list h3,
+.news_letter h3 {
+  margin-bottom: 10px;
+  color: gray;
+}
+.link-list ul {
+  list-style: none;
+}
+.link-list ul li {
+  margin-bottom: 5px;
+}
+.news_letter input {
+  padding: 5px 40px;
+  margin-bottom: 10px;
+}
+
+.icon_container {
+  display: flex;
+  gap: 15px;
+}
+.icon_container i {
+  font-size: 20px;
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+/*
+
+1. HTML
+2. CSS
+3. Tailwand
+4. JavaScript
+5. React ======> Uber, Netflix, Spotify, Instagram, Gmail, Paypal
+
+
+*/
